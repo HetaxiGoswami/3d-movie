@@ -1,0 +1,15 @@
+.col-md-6 img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.padding{
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+@media (max-width:560px){
+    .pt-sm-30{
+        padding-top: 30px;
+    }
+}

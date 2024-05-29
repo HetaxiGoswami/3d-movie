@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+// $fa-font-path: "../node_modules/font-awesome/fonts";
+// @import '~font-awesome/scss/font-awesome.scss';
+
+.main-container {
+  background-color: rgba(32, 32, 32, 1);
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1441px;
+  margin: 0 auto;
+  color: white;
+}
+
+.child-container {
+  max-width: 1071px;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(32, 32, 32, 1);
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.custom-hover:hover {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-color{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 13px 16px 13px 16px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.discount-btn{
+    background-color: rgba(0, 116, 228, 1);
+    padding: 0px 8px 0px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    height: 24px;
+    width: 53px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.movie-font-color{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.font-14 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .game-btn{
+    border: 1px solid rgba(245, 245, 245, 1);
+    background: transparent;
+    color: rgba(245, 245, 245, 1);
+}

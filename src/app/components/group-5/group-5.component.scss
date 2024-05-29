@@ -1,0 +1,32 @@
+.pt-css{
+    padding-top: 100px;
+}
+
+.font-14px{
+    font-size: 14px;
+    color: rgba(245, 245, 245, 1);
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.bor-right{
+    border-right: 1px solid rgb(113, 113, 113);
+}
+
+
+
+@media (max-width:763px){
+    .col{
+        flex: -1 0 0%;
+    }
+
+    .bor-right{
+        display: none;
+    }
+
+    .pt-sm-css{
+        padding-top: 15px;
+    }
+}
