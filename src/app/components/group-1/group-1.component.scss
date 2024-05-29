@@ -13,6 +13,12 @@
   min-height: 405px;
 }
 
+.hover:hover{
+    background-color: gray;
+    color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+}
+
 .colp-12 {
   font-size: 12px;
 }

@@ -1,12 +1,18 @@
 
 
 .col img {
-  width: 100%;
-}
-
-
-@media (max-width: 767px) {
-  .col img {
     width: 100%;
   }
-}
+  
+  
+  @media (max-width: 767px) {
+    .col img {
+      width: 100%;
+    }
+  }
+  
+  @media(max-width: 530px){
+    .font-14{
+        font-size: 13px;
+    }
+  }
